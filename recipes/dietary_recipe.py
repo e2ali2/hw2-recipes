@@ -22,3 +22,4 @@ class DietaryRecipe(Recipe):
         return f"[{self.diet_type}] {self.title}\n" + "\n".join(
             str(ing) for ing in self.ingredients
         )
+
