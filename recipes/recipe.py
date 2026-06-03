@@ -45,3 +45,4 @@ class Recipe:
         lines = [f"Рецепт: {self.title}"]
         lines.extend(str(ing) for ing in self.ingredients)
         return "\n".join(lines)
+
