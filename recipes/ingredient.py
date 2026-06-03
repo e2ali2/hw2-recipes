@@ -26,3 +26,4 @@ class Ingredient:
         if not isinstance(other, Ingredient):
             return False
         return self.name == other.name and self.unit == other.unit
+
